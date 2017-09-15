@@ -34,7 +34,7 @@ public class Lab3Controller extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-       String calcType = request.getParameter("CalcType");
+       String calcType = request.getParameter("calcType");
         if (calcType.equals("rectangle")) {
         try{
             String length = request.getParameter("length");

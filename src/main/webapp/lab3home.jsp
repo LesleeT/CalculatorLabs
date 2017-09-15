@@ -75,7 +75,7 @@
                      </div>
                           <div class="row">
                             <div class="col-sm-10">
-                            <form id="rectangle" name="rectangle" method="POST" action="Lab3controller?calcType=rectangle">
+                            <form id="rectangle" name="rectangle" method="POST" action="Lab3Controller?calcType=rectangle">
                                 <div class="form-group row">
                                     <div><label>Enter length:</label></div>
                                     <div class="col-md-4"><input type="text" name="length" value="" placeholder="Please Enter Length" class="form-control"/></div>

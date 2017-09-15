@@ -31,7 +31,7 @@
             </div>
             <div class="row text">
                 <div class="col-sm-8 col-sm-offset-3 col-xs-12">
-                     <h1>The rectangle area is: ${resMsg}</h1>
+                     <h1>The area of a rectangle is: ${resMsg}</h1>
                 </div>
                
             </div>

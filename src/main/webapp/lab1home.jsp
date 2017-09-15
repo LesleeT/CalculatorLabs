@@ -17,7 +17,7 @@
                 <div class="col-sm-8 col-sm-offset-3 col-xs-12">
                     <form id="myForm" name="calForm" method="POST" action="Lab1Controller">
                         <div class="form-group row">
-                            <img src ="Rectangle1.gif">
+                            <img src ="images/Rectangle1.gif">
                             <div><label>Enter length:</label></div>
                             <div class="col-md-4">
                                 <input type="number" name="length" value="" placeholder="Please Enter Length" class="form-control"/></div>

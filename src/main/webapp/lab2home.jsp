@@ -16,6 +16,7 @@
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-3 col-xs-12">
                     <form id="myForm" name="calForm" method="POST" action="Lab2Controller">
+                         <img src ="images/Rectangle1.gif">
                         <div class="form-group row">
                             <div><label>Enter length:</label></div>
                             <div class="col-md-4"><input type="number" name="length" value="" placeholder="Please Enter Length" class="form-control"/></div>

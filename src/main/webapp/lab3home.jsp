@@ -21,7 +21,7 @@
                 </div>
                      <div class="row">
                         <div class="col-sm-10">
-                        <form id="circle" name="circle" method="POST" action="Lab3Controller?CalcType=circle">
+                        <form id="circle" name="circle" method="POST" action="Lab3Controller?calcType=circle">
                              <div class="form-group row">
                                <div><label>Enter Radius:</label></div>
                                     <div class="col-md-4"><input type="text" name="radius" value="" placeholder="Please Enter Radius" class="form-control"/>
@@ -46,7 +46,7 @@
                      </div>
                         <div class="row">
                             <div class="col-sm-10">
-                            <form id="triangle" name="triangle" method="POST" action="Lab3Controller?CalcType=triangle">
+                            <form id="triangle" name="triangle" method="POST" action="Lab3Controller?calcType=triangle">
                                 <div class="form-group row">
                                     <div><label>Enter side A:</label></div>
                                     <div class="col-md-4"><input type="text" name="sideA" value="" placeholder="Please Enter Side A" class="form-control"/></div>
@@ -75,7 +75,7 @@
                      </div>
                           <div class="row">
                             <div class="col-sm-10">
-                            <form id="rectangle" name="rectangle" method="POST" action="Lab3controller?CalcType=rectangle">
+                            <form id="rectangle" name="rectangle" method="POST" action="Lab3controller?calcType=rectangle">
                                 <div class="form-group row">
                                     <div><label>Enter length:</label></div>
                                     <div class="col-md-4"><input type="text" name="length" value="" placeholder="Please Enter Length" class="form-control"/></div>

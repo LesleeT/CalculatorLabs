@@ -49,9 +49,10 @@ public class Lab1Controller extends HttpServlet {
 
         }catch(Exception ex){
             request.setAttribute("errorMsg", ex.getMessage());
+             }
             RequestDispatcher view = request.getRequestDispatcher(ALIAS_PAGE);
             view.forward(request, response);
-    }
+   
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

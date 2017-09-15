@@ -77,9 +77,10 @@ public class Lab3Controller extends HttpServlet {
               view.forward(request, response);
           }catch(Exception ex){
               request.setAttribute("errorMsg", ex.getMessage());
+              }
                RequestDispatcher view = request.getRequestDispatcher(ALIAS_PAGE);
                view.forward(request, response);
-          }
+          
               
       }
         
